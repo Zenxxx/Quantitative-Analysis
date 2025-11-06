@@ -8,9 +8,9 @@ Built for personal finance tracking — no external database or paid APIs requir
 ## 🚀 Features
 - ✅ Pulls **real-time stock / ETF / FX prices** from Yahoo Finance via `yfinance`
 - ✅ Supports **intraday intervals** (`1m`, `5m`, `60m`, `1d`) with automatic fallback
-- ✅ Converts all prices to **EUR**, including JPY/USD positions
+- ✅ Converts all prices to **EUR**
 - ✅ Integrates directly with your **Excel portfolio**
-- ✅ Optional `--eur-only` flag to skip FX conversion
+- ✅ Optional `--eur-only` flag to skip FX conversion (if portfolio is constrcuted by EUR only assets)
 - ✅ Can be scheduled via **.bat** or Windows Task Scheduler
 - ✅ Minimal dependencies (pandas, openpyxl, yfinance, requests)
 
